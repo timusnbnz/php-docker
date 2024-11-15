@@ -17,7 +17,8 @@
 - Dazu zählt `$dbHost`, `$dbName`, `$dbUser`, `$dbPass`
 - Das kann verwendet werden um dann eine Verbindung aufzubauen
 - Wenn der `/db/` Ordner leer ist werden beim Start durch docker-compose Tabellen angelegt
-- Die Tabellen welche angelegt werden stehen in `init-db.sql`, das könnt ihr anpassen
+- Ihr könnt die angelegten Tabellen in `init-db.sql` anpassen
+- Die Tabellen werden nach dem Löschen von `/db/` Ordnerinhalt angelegt
 - Somit hat jeder von euch die gleiche Datenbankstruktur
 
 ## Ersteinrichtung
