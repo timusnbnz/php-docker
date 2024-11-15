@@ -51,8 +51,8 @@ Nun müssen wir Git einrichten
 - Öffnet den Ordner ins VSCode
 - Klickt auf Terminal oben in der Menüleiste
 - Nun solltet ihr in dem erstellen Ordner sein
-- Gebt nun `git clone` und die URL eurer .git file ein (Grüner Code Button in GitHub) ein
-- Nun sollte ein `BlogPHP` Ordner erstellt sein
+- Gebt nun `git clone https://github.com/timusnbnz/php-docker.git` ein
+- Nun sollte ein `php-docker` Ordner erstellt sein
 
 ### Installation der Docker Container
 - Wir müssen Docker Container nutzen um den Webserver, PHP, Datenbank & PHPMyAdmin auszuführen
